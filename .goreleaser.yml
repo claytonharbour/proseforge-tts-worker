@@ -1,0 +1,88 @@
+version: 2
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  # CLI tools — pure Go, cross-platform.
+  # The worker binary requires CGo (ONNX Runtime) and is deployed via Docker,
+  # not as a standalone download. See deploy/docker/Dockerfile.
+
+  - id: tts-analyze
+    main: ./cmd/analyze
+    binary: tts-analyze
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w
+
+  - id: tts-diagnose
+    main: ./cmd/diagnose
+    binary: tts-diagnose
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w
+
+  - id: tts-generate
+    main: ./cmd/generate
+    binary: tts-generate
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w
+
+archives:
+  - id: tts-analyze
+    ids:
+      - tts-analyze
+    formats:
+      - tar.gz
+    name_template: "tts-analyze_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+  - id: tts-diagnose
+    ids:
+      - tts-diagnose
+    formats:
+      - tar.gz
+    name_template: "tts-diagnose_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+  - id: tts-generate
+    ids:
+      - tts-generate
+    formats:
+      - tar.gz
+    name_template: "tts-generate_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: "checksums.txt"
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - "^chore:"
+
+release:
+  github:
+    owner: claytonharbour
+    name: proseforge-tts-worker
