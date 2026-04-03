@@ -1,0 +1,46 @@
+# Build artifacts
+build/
+
+# Model files (downloaded by make dev-models)
+models/
+*.onnx
+*.bin
+/worker
+/diagnose
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# GitHub sync staging
+.github-staging/

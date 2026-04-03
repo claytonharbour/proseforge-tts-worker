@@ -1,0 +1,41 @@
+Lina was typing a quarterly report — revenue projections for the neural interface division, the kind of document she could produce half-asleep — when her fingers stopped. She'd meant to write "budget." The sentence on her screen read: *Q3 bridge allocations exceeded projections by 14%.* She stared at it, deleted "bridge," typed "budget." Her fingers moved correctly. The letters appeared correctly. But for a fraction of a second, between the intention and the keystroke, something had shifted.
+
+She leaned back in her chair. The echo device hummed against the bone behind her left ear — a sound so constant she usually forgot it was there, the way you forget the sound of your own breathing. The device had been part of her daily life for three years. It recorded her cognitive patterns, indexed her memories for easy retrieval, and ran passive diagnostics on her mental state. Forty million people wore one. It was as unremarkable as a wristwatch.
+
+But when she tried to recall what she'd had for breakfast, the memory came back wrong. She could picture the kitchen, the morning light, the coffee mug — but the mug was blue. Her mug was white. She'd used the same white mug every morning for two years. She was certain of that. Wasn't she?
+
+"Lina? You coming to the four o'clock?" Ethan's voice, slightly tinny through the intercom.
+
+Instead, he said: "I know someone. A researcher — used to work at Meridian Labs, the company that manufactures these things. He left under unclear circumstances a few years ago. Name's Marcus Chen. He's been running an independent lab studying echo device architecture."
+
+The basement was larger than Lina expected and colder than it had any right to be. The ceiling was low, crisscrossed with exposed pipes, and the fluorescent lighting cast everything in a clinical blue-white that flattened shadows and made skin look waxen. Workbenches lined three walls, each one crowded with equipment she recognized — oscilloscopes, logic analyzers, signal generators — alongside equipment she didn't. In the center of the room, a surgical-style table held an echo device that had been opened like a dissected insect, its internal components spread across a static-free mat.
+
+Marcus Chen sat behind the table. He was younger than Lina had imagined — mid-forties, with close-cropped hair going gray at the temples and a face that had the compressed quality of someone who had spent years working in poor light. He wore a lab coat over a faded sweater, and his hands, when he stood to greet them, were steady and precise.
+
+She connected her phone to his system and pulled up the logs. Marcus studied the gaps in silence, his eyes narrowing as he scrolled through the data. He didn't ask her to explain what she'd noticed — he simply looked and drew his own conclusions.
+
+"Injections." Marcus turned to face her. "Your device is receiving external commands during those gaps. Someone is sending instructions to it — instructions that modify how it processes your cognitive data. The word substitutions, the memory alterations — those aren't malfunctions. They're the intended output of code that shouldn't be there."
+
+She picked up the device, turned it over in her hand, and pressed it back into place behind her ear. The hum returned — familiar, constant, and now carrying a weight it hadn't carried before.
+
+"On you and, I suspect, on others. Your device isn't unique. The code I found in your firmware is designed to be deployed at scale — it includes user-segmentation logic, A/B testing frameworks, and graduated escalation protocols. This isn't a hack. It's a product feature that hasn't been announced."
+
+The development lab was a single large room divided into workstations by low partitions. Each station had a multi-monitor setup, a testing rig for echo devices, and a nameplate. Lina counted eight stations. Reeves's was at the far end, distinguished by a larger desk and a locked cabinet.
+
+Marcus went straight to the server rack in the corner — a floor-to-ceiling unit humming with the steady work of data processing. He connected a device to the rack's maintenance port and began copying files. "This will take about twenty minutes," he said. "The full test database, internal communications, and source code repository. Everything the AR Group has produced."
+
+"Consent is a regulatory framework, not a scientific one. Users consented to cognitive assistance when they activated their devices. The scope of that assistance is a design decision, not an ethical one." He set his tablet on the nearest desk. "You've taken data from my servers. I assume you intend to use it as evidence of wrongdoing. I'd encourage you to reconsider. Meridian's legal department is well-resourced, and the technology in this room has applications that certain government agencies find very interesting."
+
+Marcus stepped forward. "Julian. I reported the injection architecture to Meridian's ethics board four years ago. They buried it. I went to the board of directors. They transferred me to a non-technical role and suggested I take early retirement. I left because I had no leverage. Now I do."
+
+"I have two hundred and thirty-seven user IDs, escalation protocols, and your handwritten research journals documenting non-consensual cognitive modification of human subjects. That's not a grudge. That's a grand jury."
+
+"Priya Khatri," he said. "Investigative reporter at the Capital Tribune. She broke the Sentinel Data story two years ago — the surveillance company that was selling user location data to insurance firms. She knows how to handle classified material, she has legal backing from the paper, and she's not afraid of corporate pressure."
+
+Priya Khatri was exactly what Ethan had described: sharp, methodical, and entirely unintimidated by the scope of what they were presenting. She arrived at Marcus's lab the following afternoon with a photographer, a digital forensics consultant, and a lawyer from the Tribune's legal department. She listened to their account without interrupting, examined the evidence, and asked questions that revealed she understood both the technology and its implications.
+
+Within six hours, the article had been read four million times. Within twelve, Meridian's stock price had dropped thirty-one percent. Within twenty-four, the Federal Technology Commission announced a formal investigation, and Meridian's CEO issued a statement calling the adaptive response program "an unauthorized research initiative conducted without the knowledge or approval of senior leadership."
+
+Lina watched the fallout from her apartment, where she had spent the day fielding calls from friends, colleagues, and strangers who had found her name in the article's acknowledgments. Priya had credited "Lina Chen, the whistleblower whose persistence exposed the program." The name felt strange attached to a word she'd never imagined applying to herself.
+
+"Marcus called this morning," Lina said. "He's been contacted by the FTC. They want him to serve as a technical consultant for the investigation."
