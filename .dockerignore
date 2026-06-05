@@ -1,0 +1,30 @@
+# Secrets — never include in Docker build context
+.env
+.env.*
+!.env.example
+
+# Build artifacts (binary built inside container)
+build/
+
+# Model files (downloaded inside container)
+models/
+*.onnx
+*.bin
+
+# Git / IDE / OS
+.git
+.gitignore
+.idea/
+.vscode/
+.DS_Store
+
+# Plans and docs
+.plans/
+.claude/
+*.md
+
+# Test fixtures
+testdata/
+
+# Logs
+*.log
