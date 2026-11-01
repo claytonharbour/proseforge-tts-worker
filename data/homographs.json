@@ -1,0 +1,992 @@
+{
+  "_description": "Homograph disambiguation rules for English TTS. Each entry has two pronunciations with context trigger words. The 'default' key is the most common pronunciation.",
+  "read": {
+    "default": "ɹˈɛd",
+    "imperative": "ɹˈid",
+    "narrated_past": "ɹˈɛd",
+    "pronunciations": {
+      "ɹˈid": {
+        "context_before": [
+          "will",
+          "can",
+          "could",
+          "should",
+          "would",
+          "shall",
+          "may",
+          "might",
+          "to",
+          "must",
+          "let",
+          "please",
+          "not",
+          "couldn't",
+          "can't",
+          "won't",
+          "wouldn't",
+          "shouldn't",
+          "don't",
+          "doesn't",
+          "didn't",
+          "cannot",
+          "do",
+          "does",
+          "did",
+          "i'll",
+          "we'll",
+          "you'll",
+          "they'll",
+          "he'll",
+          "she'll"
+        ],
+        "context_after": [
+          "aloud",
+          "along",
+          "out",
+          "through",
+          "about",
+          "more"
+        ]
+      },
+      "ɹˈɛd": {
+        "context_before": [
+          "had",
+          "have",
+          "has",
+          "already",
+          "yesterday",
+          "previously",
+          "just",
+          "never",
+          "once",
+          "ever",
+          "she",
+          "he",
+          "i",
+          "then",
+          "finally",
+          "eventually",
+          "later",
+          "recently",
+          "afterwards",
+          "and",
+          "screen",
+          "sign",
+          "letter",
+          "email",
+          "note",
+          "message",
+          "report",
+          "document",
+          "headline",
+          "label",
+          "text",
+          "card",
+          "page",
+          "it",
+          "was",
+          "were",
+          "been",
+          "being",
+          "is",
+          "are",
+          "be"
+        ],
+        "context_after": [],
+        "immediately_before": ["i've", "i’ve", "we've", "we’ve", "you've", "you’ve", "they've", "they’ve", "he's", "he’s", "she's", "she’s", "it's", "it’s"]
+      }
+    },
+    "subject_name": "ɹˈɛd"
+  },
+  "lead": {
+    "default": "liːd",
+    "pronunciations": {
+      "lɛd": {
+        "context_before": [],
+        "context_after": [
+          "pipe",
+          "paint",
+          "pipes",
+          "poisoning",
+          "poison",
+          "pencil",
+          "bullet",
+          "bullets",
+          "weight",
+          "weights"
+        ]
+      },
+      "liːd": {
+        "context_before": [],
+        "context_after": [
+          "the",
+          "a",
+          "way",
+          "team",
+          "charge",
+          "role",
+          "singer",
+          "guitar",
+          "guitarist"
+        ]
+      }
+    }
+  },
+  "live": {
+    "default": "lˈɪv",
+    "pronunciations": {
+      "lˈIv": {
+        "immediately_before": ["the", "a", "an", "this", "his", "its", "our", "their", "my", "your", "every", "another", "is", "are", "was", "were", "be", "been", "being", "isn't", "aren't", "wasn't", "weren't", "what's", "that's", "it's", "he's", "she's", "there's", "here's", "who's", "they're", "we're", "you're", "for", "isn’t", "aren’t", "wasn’t", "weren’t", "what’s", "that’s", "it’s", "he’s", "she’s", "there’s", "here’s", "who’s", "they’re", "we’re", "you’re"],
+        "context_before": [
+          "went",
+          "go",
+          "goes",
+          "going",
+          "gone",
+          "plays",
+          "play",
+          "played",
+          "playing",
+          "performs",
+          "performed",
+          "performing",
+          "broadcast",
+          "broadcasts",
+          "streamed"
+        ],
+        "context_after": [
+          "performance",
+          "broadcast",
+          "stream",
+          "streaming",
+          "show",
+          "music",
+          "concert",
+          "event",
+          "audience",
+          "television",
+          "tv",
+          "wire",
+          "animals",
+          "animal",
+          "ammunition",
+          "bait",
+          "coals",
+          "oak"
+        ]
+      },
+      "lˈɪv": {
+        "context_before": [
+          "to",
+          "we",
+          "they",
+          "you",
+          "who",
+          "where",
+          "i"
+        ],
+        "context_after": [
+          "here",
+          "with",
+          "there",
+          "together",
+          "alone",
+          "near"
+        ]
+      }
+    }
+  },
+  "lives": {
+    "default": "lˈIvz",
+    "pronunciations": {
+      "lˈɪvz": {
+        "context_before": [
+          "he",
+          "she",
+          "it",
+          "who",
+          "everyone",
+          "everybody",
+          "someone",
+          "somebody",
+          "nobody",
+          "anyone",
+          "that"
+        ],
+        "context_after": [
+          "in",
+          "with",
+          "for",
+          "on",
+          "at",
+          "near",
+          "alone",
+          "here",
+          "there",
+          "next",
+          "by",
+          "behind",
+          "inside",
+          "outside",
+          "across",
+          "above",
+          "below",
+          "under",
+          "upstairs",
+          "downstairs",
+          "nearby",
+          "happily",
+          "quietly",
+          "comfortably",
+          "abroad",
+          "apart",
+          "together",
+          "between",
+          "among",
+          "beside"
+        ]
+      },
+      "lˈIvz": {
+        "context_before": [
+          "saves",
+          "save",
+          "saved",
+          "saving",
+          "lost",
+          "lose",
+          "risk",
+          "risked",
+          "risks",
+          "take",
+          "took",
+          "taken",
+          "taking",
+          "ruin",
+          "ruined",
+          "change",
+          "changed",
+          "changes",
+          "their",
+          "our",
+          "your",
+          "my",
+          "his",
+          "her",
+          "its",
+          "these",
+          "those",
+          "nine",
+          "many",
+          "several",
+          "both",
+          "two",
+          "three",
+          "four",
+          "five",
+          "ten",
+          "hundred",
+          "thousand",
+          "countless",
+          "millions",
+          "own",
+          "whose",
+          "precious",
+          "human",
+          "innocent",
+          "young",
+          "entire",
+          "whole"
+        ],
+        "context_after": []
+      }
+    }
+  },
+  "wind": {
+    "default": "wˈɪnd",
+    "pronunciations": {
+      "wˈɪnd": {
+        "context_before": [
+          "the",
+          "a",
+          "strong",
+          "cold",
+          "warm",
+          "gentle",
+          "harsh",
+          "icy"
+        ],
+        "context_after": [
+          "blew",
+          "blows",
+          "blowing",
+          "howled",
+          "speed",
+          "turbine",
+          "chill",
+          "farm"
+        ]
+      },
+      "wˈInd": {
+        "context_before": [],
+        "context_after": [
+          "the",
+          "up",
+          "down",
+          "around",
+          "clock",
+          "watch",
+          "it"
+        ]
+      }
+    }
+  },
+  "close": {
+    "default": "klˈOz",
+    "pronunciations": {
+      "klˈOz": {
+        "context_before": [],
+        "context_after": [
+          "the",
+          "door",
+          "doors",
+          "window",
+          "windows",
+          "eyes",
+          "it",
+          "them",
+          "your",
+          "his",
+          "her"
+        ]
+      },
+      "klˈOs": {
+        "context_before": [
+          "a",
+          "too",
+          "very",
+          "so",
+          "really",
+          "extremely"
+        ],
+        "context_after": [
+          "call",
+          "to",
+          "enough",
+          "friend",
+          "friends",
+          "together",
+          "proximity",
+          "range",
+          "relationship"
+        ]
+      }
+    }
+  },
+  "tear": {
+    "default": "tˈɛɹ",
+    "pronunciations": {
+      "tˈɪɹ": {
+        "context_before": [
+          "a",
+          "the"
+        ],
+        "context_after": [
+          "rolled",
+          "fell",
+          "drop",
+          "drops",
+          "in",
+          "eye",
+          "eyes",
+          "streamed"
+        ]
+      },
+      "tˈɛɹ": {
+        "context_before": [],
+        "context_after": [
+          "the",
+          "paper",
+          "apart",
+          "down",
+          "up",
+          "off",
+          "it",
+          "open",
+          "into"
+        ]
+      }
+    }
+  },
+  "bow": {
+    "default": "bˈO",
+    "pronunciations": {
+      "bˈW": {
+        "context_before": [
+          "took",
+          "take",
+          "a"
+        ],
+        "context_after": [
+          "down",
+          "before",
+          "to",
+          "gracefully",
+          "deeply",
+          "low",
+          "head"
+        ]
+      },
+      "bˈO": {
+        "context_before": [],
+        "context_after": [
+          "and",
+          "arrow",
+          "tie",
+          "ties",
+          "string"
+        ]
+      }
+    },
+    "inflected_default": "bˈW"
+  },
+  "bass": {
+    "default": "bˈAs",
+    "pronunciations": {
+      "bˈAs": {
+        "context_before": [],
+        "context_after": [
+          "guitar",
+          "note",
+          "notes",
+          "line",
+          "player",
+          "drum",
+          "drums",
+          "drop",
+          "boosted",
+          "clef",
+          "voice"
+        ]
+      },
+      "bˈæs": {
+        "context_before": [],
+        "context_after": [
+          "fishing",
+          "fish",
+          "caught",
+          "lake",
+          "river",
+          "pond",
+          "largemouth",
+          "smallmouth",
+          "striped"
+        ]
+      }
+    }
+  },
+  "wound": {
+    "default": "wˈund",
+    "pronunciations": {
+      "wˈund": {
+        "context_before": [
+          "the",
+          "a",
+          "deep",
+          "open",
+          "his",
+          "her",
+          "my"
+        ],
+        "context_after": [
+          "healed",
+          "healing",
+          "infected",
+          "bleeding",
+          "bled"
+        ]
+      },
+      "wˈWnd": {
+        "context_before": [],
+        "context_after": [
+          "up",
+          "down",
+          "around",
+          "the",
+          "it",
+          "through"
+        ]
+      }
+    }
+  },
+  "minute": {
+    "default": "mˈɪnɪt",
+    "pronunciations": {
+      "mˈɪnɪt": {
+        "context_before": [
+          "a",
+          "one",
+          "per",
+          "every",
+          "each",
+          "last",
+          "first",
+          "this",
+          "that",
+          "wait"
+        ],
+        "context_after": [
+          "ago",
+          "later",
+          "long",
+          "left",
+          "remaining"
+        ]
+      },
+      "mInjˈuːt": {
+        "context_before": [
+          "very",
+          "so",
+          "extremely",
+          "incredibly"
+        ],
+        "context_after": [
+          "detail",
+          "details",
+          "difference",
+          "differences",
+          "amount",
+          "change",
+          "changes",
+          "particle",
+          "particles",
+          "quantity"
+        ]
+      }
+    }
+  },
+  "present": {
+    "default": "pɹˈɛzᵊnt",
+    "pronunciations": {
+      "pɹˈɛzᵊnt": {
+        "context_before": [
+          "a",
+          "the",
+          "birthday",
+          "christmas",
+          "this",
+          "wrapped"
+        ],
+        "context_after": [
+          "tense",
+          "day",
+          "time",
+          "moment"
+        ]
+      },
+      "pɹizˈɛnt": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "shall",
+          "let",
+          "please"
+        ],
+        "context_after": [
+          "the",
+          "a",
+          "to",
+          "our",
+          "your",
+          "his",
+          "her",
+          "their"
+        ]
+      }
+    }
+  },
+  "record": {
+    "default": "ɹˈɛkɔɹd",
+    "pronunciations": {
+      "ɹˈɛkɔɹd": {
+        "context_before": [
+          "a",
+          "the",
+          "new",
+          "world",
+          "this",
+          "that",
+          "broken",
+          "old",
+          "in",
+          "on",
+          "no"
+        ],
+        "context_after": [
+          "breaking",
+          "holder",
+          "label",
+          "player",
+          "store",
+          "number",
+          "high",
+          "low"
+        ]
+      },
+      "ɹəkˈɔɹd": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "should",
+          "let",
+          "please",
+          "they",
+          "we",
+          "i",
+          "you",
+          "it"
+        ],
+        "context_after": [
+          "the",
+          "a",
+          "it",
+          "this",
+          "that",
+          "everything",
+          "audio",
+          "video"
+        ]
+      }
+    }
+  },
+  "object": {
+    "default": "ˈɑbʤɛkt",
+    "pronunciations": {
+      "ˈɑbʤɛkt": {
+        "context_before": [
+          "a",
+          "an",
+          "the",
+          "this",
+          "that",
+          "each",
+          "every",
+          "no",
+          "foreign",
+          "sharp",
+          "heavy"
+        ],
+        "context_after": []
+      },
+      "əbʤˈɛkt": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "shall",
+          "may",
+          "might",
+          "did"
+        ],
+        "context_after": [
+          "to"
+        ]
+      }
+    }
+  },
+  "project": {
+    "default": "pɹˈɑʤɛkt",
+    "pronunciations": {
+      "pɹˈɑʤɛkt": {
+        "context_before": [
+          "a",
+          "the",
+          "this",
+          "that",
+          "new",
+          "big",
+          "our",
+          "my",
+          "his",
+          "her"
+        ],
+        "context_after": [
+          "manager",
+          "management",
+          "plan",
+          "deadline"
+        ]
+      },
+      "pɹəʤˈɛkt": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "shall",
+          "may"
+        ],
+        "context_after": [
+          "the",
+          "a",
+          "onto",
+          "upon",
+          "an",
+          "confidence",
+          "power",
+          "authority"
+        ]
+      }
+    }
+  },
+  "refuse": {
+    "default": "ɹɪfjˈuːz",
+    "pronunciations": {
+      "ɹˈɛfjuːs": {
+        "context_before": [
+          "the",
+          "a",
+          "pile"
+        ],
+        "context_after": [
+          "bin",
+          "dump",
+          "pile",
+          "heap",
+          "collection",
+          "disposal"
+        ]
+      },
+      "ɹɪfjˈuːz": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "shall",
+          "may",
+          "did"
+        ],
+        "context_after": [
+          "to"
+        ]
+      }
+    }
+  },
+  "content": {
+    "default": "kˈɑntɛnt",
+    "pronunciations": {
+      "kˈɑntɛnt": {
+        "context_before": [
+          "the",
+          "web",
+          "online",
+          "digital",
+          "video",
+          "media"
+        ],
+        "context_after": [
+          "creator",
+          "creation",
+          "marketing",
+          "strategy",
+          "management"
+        ]
+      },
+      "kəntˈɛnt": {
+        "context_before": [
+          "was",
+          "were",
+          "is",
+          "are",
+          "am",
+          "be",
+          "been",
+          "felt",
+          "seemed",
+          "appeared"
+        ],
+        "context_after": [
+          "with",
+          "to"
+        ]
+      }
+    }
+  },
+  "desert": {
+    "default": "dˈɛzɜɹt",
+    "pronunciations": {
+      "dˈɛzɜɹt": {
+        "context_before": [
+          "the",
+          "a",
+          "sahara",
+          "hot",
+          "dry",
+          "vast",
+          "arid"
+        ],
+        "context_after": [
+          "sand",
+          "heat",
+          "climate",
+          "storm",
+          "landscape"
+        ]
+      },
+      "dɪzˈɜɹt": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "did",
+          "never",
+          "don't"
+        ],
+        "context_after": [
+          "the",
+          "his",
+          "her",
+          "their",
+          "your",
+          "us",
+          "them"
+        ]
+      }
+    }
+  },
+  "produce": {
+    "default": "pɹədˈuːs",
+    "pronunciations": {
+      "pɹˈɑduːs": {
+        "context_before": [
+          "fresh",
+          "local",
+          "organic",
+          "the"
+        ],
+        "context_after": [
+          "section",
+          "aisle",
+          "department",
+          "market",
+          "stand"
+        ]
+      },
+      "pɹədˈuːs": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "shall",
+          "may"
+        ],
+        "context_after": [
+          "the",
+          "a",
+          "more",
+          "results",
+          "evidence",
+          "output"
+        ]
+      }
+    }
+  },
+  "conduct": {
+    "default": "kˈɑndʌkt",
+    "pronunciations": {
+      "kˈɑndʌkt": {
+        "context_before": [
+          "the",
+          "his",
+          "her",
+          "their",
+          "your",
+          "good",
+          "bad",
+          "proper",
+          "professional"
+        ],
+        "context_after": [
+          "code",
+          "policy",
+          "report"
+        ]
+      },
+      "kəndˈʌkt": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "shall",
+          "may"
+        ],
+        "context_after": [
+          "a",
+          "the",
+          "an",
+          "business",
+          "research",
+          "experiment",
+          "survey",
+          "interview"
+        ]
+      }
+    }
+  },
+  "permit": {
+    "default": "pˈɜɹmɪt",
+    "pronunciations": {
+      "pˈɜɹmɪt": {
+        "context_before": [
+          "a",
+          "the",
+          "building",
+          "parking",
+          "work",
+          "fishing",
+          "hunting"
+        ],
+        "context_after": [
+          "holder",
+          "application",
+          "number"
+        ]
+      },
+      "pɜɹmˈɪt": {
+        "context_before": [
+          "to",
+          "will",
+          "would",
+          "can",
+          "could",
+          "shall",
+          "may",
+          "not"
+        ],
+        "context_after": [
+          "the",
+          "us",
+          "me",
+          "him",
+          "her",
+          "them",
+          "it",
+          "anyone",
+          "access"
+        ]
+      }
+    }
+  }
+}
